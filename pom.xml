@@ -36,18 +36,19 @@
 				<version>${mule.maven.plugin.version}</version>	
 				<extensions>true</extensions>
 				<configuration>
-				<cloudHubDeployment>
-					<uri>https://anypoint.mulesoft.com/</uri>
-					<muleVersion>4.4.0</muleVersion>
-					<username>Michaelraza01</username>
-					<password>Welcome007!!!</password>
-					<applicationName>Cicd-app</applicationName>
-					<environment>Sandbox</environment>
-					<workerType>Micro</workerType>
-					<workers>1</workers>
-					<objectStoreV2>true</objectStoreV2>
-					<region> us-west-2 </region>
-				</cloudHubDeployment>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com/</uri>
+						<muleVersion>4.4.0</muleVersion>
+						<username>Michaelraza01</username>
+						<password>Welcome007!!!</password>
+						<applicationName>Cicd-app</applicationName>
+						<environment>Sandbox</environment>
+						<workerType>Micro</workerType>
+						<workers>1</workers>
+						<objectStoreV2>true</objectStoreV2>
+						<region> us-west-2 </region>
+					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
